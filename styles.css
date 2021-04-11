@@ -1,0 +1,93 @@
+body,p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    width: 50%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    outline: none;  
+}
+input:hover {
+    box-shadow: 2px 2px 5px #b9b8b8;
+}
+.microphone {
+    position: absolute;
+    left: 72em;
+    top: 19em;
+}
+.search {
+    position: absolute;
+    left: 32em;
+    top: 19.3em;
+}
+.btns {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.btns > p {
+    margin-top: 3em;
+}
+button {
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    margin: 0.3em;
+    border-radius: 5px;
+}
+
+p a {
+    text-decoration: none;
+    color: blue;
+}
+footer {
+    background-color: #f2f2f2;
+    color: grey;
+    font-size: 18px;
+    margin-top: 11.5em;
+}
+footer a {
+    text-decoration: none;
+    color: grey
+}
+.footer-top {
+    padding: 1em;
+}
+.footer-bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+    color: grey;
+}
+.left a {
+    margin-right: 1em;
+}
+.right a {
+    margin-right: 1em;
+}
